@@ -1,0 +1,13 @@
+python==3.10.5
+pandas 
+numpy
+scipy
+mattplotlib
+seaborn
+scikit-learn
+fastapi
+pydantic
+uvicorn
+gunicorn==21.2.0
+uvloop
+httptools
