@@ -6,10 +6,10 @@ Movie recommendation can be done in multiple ways, some are: <br>
 3. Item based Movie Recommendation - Item-based Collaborative Filtering focuses on finding similar movies instead of similar users to recommend to user ‘A’ based on their past preferences. It identifies pairs of movies rated/liked by the same users, measures their similarity across all users who rated both, and then suggests similar movies based on the similarity scores.
 <br>
 __Dataset__  
-This dataset (ml-25m) describes 5-star rating and free-text tagging activity from [MovieLens](http://movielens.org), a movie recommendation service. It contains 25000095 ratings and 1093360 tag applications across 62423 movies. These data were created by 162541 users between January 09, 1995 and November 21, 2019. This dataset was generated on November 21, 2019. <br>
+This dataset (ml-25m) describes 5-star rating and free-text tagging activity from MovieLens: <http://movielens.org> , a movie recommendation service. It contains 25000095 ratings and 1093360 tag applications across 62423 movies. These data were created by 162541 users between January 09, 1995 and November 21, 2019. This dataset was generated on November 21, 2019. <br>
 Users were selected at random for inclusion. All selected users had rated at least 20 movies. No demographic information is included. Each user is represented by an id, and no other information is provided.
 The data are contained in the files `genome-scores.csv`, `genome-tags.csv`, `links.csv`, `movies.csv`, `ratings.csv` and `tags.csv`. More details about the contents and use of all these files follows.
-This and other GroupLens data sets are publicly available for download [here](http://grouplens.org/datasets/). <br>
+This and other GroupLens data sets are publicly available for download here: <http://grouplens.org/datasets/>. <br>
 We shall use movies and ratings csv files for our project. <br>
 __RatingCsv__ : All ratings are contained in the file `ratings.csv`. Each line of this file after the header row represents one rating of one movie by one user, and has the following format:
 
