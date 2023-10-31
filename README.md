@@ -21,13 +21,16 @@ __MoviesCsv__ : Movie information is contained in the file `movies.csv`. Each li
 ## Model
 Basic EDA and Visulaization is done to understand the dataset. <br>
 __ModelBuilding__ : 
-1. cosine similarity is used to get similar movies based on ratings.
+1. Cosine similarity is used to get similar movies based on ratings.
+   Cosine similarity: Cosine similarity measures the similarity between two vectors of an inner product space. <br> 
 2. NearestNeighbors ML model is used to get similar movies.
+   Sample the dataset, As it contains many null values use csr_matrix to remove sparsity. Using sparse matrices to store data that contains a large number of zero-valued elements can both save a significant 
+   amount of memory and speed up the processing of that data
 
 #### FastAPI
 FastAPI is a Python framework and set of tools that enables developers to use a REST interface to call commonly used functions to implement applications. For this project we use it to recommend similar movies based on the input movie given. This can be used to further deploy. This can be further deployed in a cloud.
 
 ## Conclusion
 1.Basic EDA and Visualization on the dataset. <br> 
-2.cosine similarity and KNN algorithm for recommendation
+2.cosine similarity and KNN algorithm for recommendation. <br>
 3.FastAPI for rendering the output in a web browser.
